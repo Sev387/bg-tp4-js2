@@ -1,0 +1,39 @@
+
+table{
+   border-collapse: collapse;
+    width: 80%;
+    font-family: Arial, sans-serif;
+   border: 1px solid #dcdcdc;
+}
+
+
+th, td {
+
+    padding: 5px 10px;
+    
+}
+
+th {
+
+    background-color: blue;
+    color: white; 
+}
+
+
+.col_number, .col_chckbox {
+    text-align: center;
+}
+
+.col_text {
+    text-align: left;
+}
+
+#container_tableau {
+    font-family: Calibri, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin: 0 auto;
+    align-items: center;
+    
+}
