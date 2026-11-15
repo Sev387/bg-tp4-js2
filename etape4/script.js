@@ -82,13 +82,7 @@ function consoleTableau() {
     console.log(persons);
 }
 
-    const btnAjouter = document.getElementById('btn_ajouter');
-    if(btnAjouter) {
 
-    btnAjouter.addEventListener('click', () => {
-
-        doInsertRowTable(99, 'nom', 'prenom', 10);
-    });
 
 
 
@@ -99,7 +93,7 @@ if (btnConsole) {
     });
 
 }
-    }
+    
 
 
 
